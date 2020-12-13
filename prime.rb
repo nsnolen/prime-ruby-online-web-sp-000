@@ -15,8 +15,8 @@ end
 
 
   def prime(number)
-    return false if number == 1    
-    max = Math.sqrt(number)    
+    return false if number == 1
+    max = Math.sqrt(number)
     (2..max).all? { |x| number % x != 0 }
   end
 end
