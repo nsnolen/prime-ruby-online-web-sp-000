@@ -9,5 +9,5 @@
 
 
 def prime?(num)
-  num.prime
+  num.prime?
 end
