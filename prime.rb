@@ -18,5 +18,4 @@
     return false if number == 1
     max = Math.sqrt(number)
     (2..max).all? { |x| number % x != 0 }
-  end
 end
